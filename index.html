@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/32ba4aeb6f.js" crossorigin="anonymous"></script>
+  <title>Profile Builder</title>
+</head>
+<body>
+  <div class="container">
+    <h4>Profile Builder</h4>
+
+    <form class="mt-4 one">
+      <div class="form-group">
+        <label for="name">Full Name</label>
+        <input type="text" class="form-control" id="name" placeholder="Write Name">
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" class="form-control" id="email" placeholder="Email Address">
+      </div>
+      <div class="form-group">
+        <label for="profession">Profession</label>
+        <input type="text" class="form-control" id="profession" placeholder="Write Designation">
+      </div>
+      <button type="submit" class="btn btn-primary" id="submit">Submit</button>
+    </form>
+    <div class="card card-body mt-4 bg-dark">
+      <input type="search" name="" placeholder="search" id="search" class="form-control">
+    </div>
+    <table class="table table-striped mt-4">
+      <thead>
+        <tr>
+          <th scope="col">Sl</th>
+          <th scope="col">Full Name</th>
+          <th scope="col">Email</th>
+          <th scope="col">Profession</th>
+          <th scope="col"></th>
+        </tr>
+      </thead>
+      <tbody id="profile-output">
+        <!-- <tr class="profile-list">
+          <th scope="row">1</th>
+          <td>Name</td>
+          <td>Email</td>
+          <td>Profession</td>
+          <td">Delete <i class="fas fa-trash delete"></i></td>
+        </tr> -->
+      </tbody>
+    </table>
+
+    <script src="profilees6.js"></script>
+  </div>
+</body>
+</html>
